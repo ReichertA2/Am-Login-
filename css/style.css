@@ -1,0 +1,152 @@
+body {
+    background: white;
+
+    /* display:flex;
+    flex-direction: column; */
+}
+
+img {
+    margin-left: 45%;
+    padding-bottom: 3%;
+}
+
+#wrapper {
+    /* width: 400px; */
+    display: flex;
+    background: white;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    /* border: solid 10px gray;
+    box-sizing: border-box; */
+
+}
+
+.border_wrap {
+    width: 600px;
+    height: 490px;
+    background: white;
+    padding: 20px;
+    border: solid 0.3px rgb(133, 128, 128);
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email input {
+    width: 592px;
+    height: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    /* align-content: flex-end; */
+
+}
+
+.password input {
+    height: 20px;
+
+}
+
+.forgot_password a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(45, 123, 175);
+
+
+
+}
+
+.continue {
+    margin-top: 40px;
+
+}
+
+.continue button {
+    width: 600px;
+    height: 25px;
+    background-color: orange;
+    border: solid 1px;
+    margin-bottom: 20px;
+
+}
+
+
+.need_help {
+    margin-top: 20px;
+    margin-right: 250px;
+    text-decoration: none;
+    color: rgb(45, 123, 175);
+
+}
+
+
+.line {
+    text-align: center;
+    color: rgb(133, 128, 128)
+}
+
+.create {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.create button {
+    width: 610px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(45, 123, 175);
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+
+
+}
+
+.footer li {
+    padding: 10px;
+
+
+}
+
+p {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.line {
+    width:100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+
+
+h4 span {
+    background: #fff;
+    padding: 0 10px;
+    
+}
