@@ -104,6 +104,12 @@ img {
     margin-bottom: 50px;
 }
 
+.line_container { 
+    max-width: 600px;
+    margin: 0px auto;
+
+}
+
 .footer {
     display: flex;
     justify-content: center;
